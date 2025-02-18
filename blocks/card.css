@@ -30,3 +30,26 @@
   background-color: transparent;
   opacity: 40%;
 }
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+    width: 100%;
+  }
+
+  .card__title {
+    white-space: normal;
+    font-size: 18px;
+  }
+
+  .card__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card__like_button {
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+  }
+}
