@@ -14,7 +14,7 @@ An image sharing site
 
 **GitHub**
 
-- [Deployment Link](git@github.com:oliverpm21/se_project_spots.git)
+- [Deployment Link](https://oliverpm21.github.io/se_project_spots/)
 
 **Images**
 
