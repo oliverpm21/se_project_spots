@@ -18,11 +18,6 @@
 
 @media screen and (max-width: 627px) {
   .cards__list {
-<<<<<<< HEAD
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-=======
-    grid-template-columns: repeat(auto-fit, 288px);
-    width: 100vw;
->>>>>>> 6f36d4b847892e40b9442b30754e79709dacac01
   }
 }
