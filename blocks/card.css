@@ -32,6 +32,11 @@
   opacity: 40%;
 }
 
+.card__like_button:hover {
+  color: rgba(77, 77, 77, 1);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;

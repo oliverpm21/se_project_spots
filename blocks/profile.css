@@ -57,8 +57,13 @@
   gap: 8px;
 }
 
+.profile__edit-button:hover {
+  color: rgba(33, 33, 33, 1);
+  cursor: pointer;
+}
+
 .profile__edit-button-logo {
-  :rgba(33, 33, 33, 0.7) ;
+  color: rgba(33, 33, 33, 0.7);
 }
 
 .profile__add-button {
@@ -75,6 +80,11 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.profile__add-button:hover {
+  background-color: #383838;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
