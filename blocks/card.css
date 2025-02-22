@@ -28,6 +28,7 @@
   width: 23px;
   border: none;
   background-color: transparent;
+  background-repeat: no-repeat;
   opacity: 40%;
 }
 
@@ -43,7 +44,6 @@
   }
 
   .card__content {
-    flex-direction: column;
     align-items: flex-start;
   }
 
