@@ -66,10 +66,18 @@
   color: rgba(33, 33, 33, 0.7);
 }
 
+.profile__edit-button::before {
+  content: "Pencil";
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/button-pencil.svg);
+}
+
 .profile__add-button {
   margin: 138px 0 20px auto;
   width: 149px;
   height: 52px;
+  border: none;
   border-radius: 8px;
   background-color: #212121;
   font-weight: 500;
@@ -82,8 +90,15 @@
   align-items: center;
 }
 
+.profile__add-button::before {
+  content: "Plus sign";
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/add-logo.svg);
+}
+
 .profile__add-button:hover {
-  background-color: #383838;
+  background-color: rgba(33, 33, 33, 0.2);
   cursor: pointer;
 }
 
