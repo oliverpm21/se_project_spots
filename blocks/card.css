@@ -21,9 +21,11 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 350px;
+  margin: 0;
 }
 
 .card__like-button {
+  margin: 0;
   background-image: url(../images/Union.svg);
   height: 20px;
   width: 23px;
@@ -34,7 +36,7 @@
 }
 
 .card__like-button:hover {
-  color: rgba(77, 77, 77, 1);
+  opacity: 1;
   cursor: pointer;
 }
 
