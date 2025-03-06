@@ -14,7 +14,7 @@ An image sharing site
 
 **GitHub**
 
-- [Deployment Link](https://oliverpm21.github.io/se_project_spots/)
+`https://oliverpm21.github.io/se_project_spots/`
 
 **Images**
 
@@ -34,4 +34,4 @@ An image sharing site
 
 ## Project Presentation Link
 
-https://drive.google.com/file/d/1DKdMnnBbHozf9mIDF9yADd2msw6p9v8y/view?usp=sharing
+`https://drive.google.com/file/d/1DKdMnnBbHozf9mIDF9yADd2msw6p9v8y/view?usp=sharing`
