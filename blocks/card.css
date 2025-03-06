@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .card__title {
@@ -21,18 +22,19 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 350px;
-  margin: 0;
+  margin-top: 12px;
 }
 
 .card__like-button {
-  margin: 0;
   background-image: url(../images/Union.svg);
   height: 20px;
   width: 23px;
   border: none;
   background-color: transparent;
   background-repeat: no-repeat;
+  box-sizing: border-box;
   opacity: 40%;
+  margin: 20px 0 13px;
 }
 
 .card__like-button:hover {
@@ -46,19 +48,23 @@
     width: 100%;
   }
 
-  .card__title {
-    white-space: normal;
-    font-size: 16px;
-    line-height: 1;
-  }
-
   .card__content {
-    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
   }
 
-  .card__like_button {
-    margin-top: 8px;
-    width: 30px;
-    height: 30px;
+  .card__title {
+    margin: 12px 8px 2px 0;
+    font-size: 16px;
+    line-height: 1.2;
+    flex-grow: 1;
+  }
+
+  .card__like-button {
+    width: 18px;
+    height: 20px;
+    padding-right: 18px;
+    flex-shrink: 0;
   }
 }

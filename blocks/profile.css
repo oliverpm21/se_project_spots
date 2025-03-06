@@ -96,6 +96,12 @@
     height: 80px;
     padding-top: 20px;
   }
+
+  .profile__column {
+    align-items: center;
+    text-align: center;
+  }
+
   .profile__name {
     margin: 12px 0 6px;
     font-weight: 500;
