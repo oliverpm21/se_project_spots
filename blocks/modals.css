@@ -37,6 +37,10 @@
   padding-right: 60px;
 }
 
+.modal__close-btn:hover {
+  cursor: pointer;
+}
+
 .modal__title {
   margin: 0 0 32px;
   font-size: 32px;
