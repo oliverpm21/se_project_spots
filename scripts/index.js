@@ -36,7 +36,6 @@ addPostBtn.addEventListener("click", function () {
 
 addPostCloseBtn.addEventListener("click", function () {
   addPostModal.classList.remove("modal_is-opened");
-  newPostForm.reset();
 });
 
 function handleEditProfileSubmit(evt) {
